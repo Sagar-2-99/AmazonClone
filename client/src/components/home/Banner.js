@@ -31,9 +31,9 @@ const Banner = () => {
         {
             data?.map((imag, i)=>{
                 return (
-                    <>
+                    <div>
                     <img src={imag} alt='' className='banner_img'/>
-                    </>
+                    </div>
                 )
             })
         }
